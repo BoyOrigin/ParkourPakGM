@@ -1,0 +1,55 @@
+name: ParkourPakGM
+version: '1.0-SNAPSHOT'
+main: net.faydev.parkourPakGM.ParkourPakGM
+api-version: '1.20'
+authors: [ FayBoy ]
+description: A Specific Event plugin for LuckyNetwork.
+commands:
+  addspawn:
+    description: Add spawn location
+    permission: event.addspawn
+  resetspawn:
+    description: Reset spawn location
+    permission: event.resetspawn
+  spawn:
+    description: Teleport to spawn location
+    permission: event.spawn
+  setkit:
+    description: Set kit based on player's inventory
+    permission: event.setkit
+  getkit:
+    description: Give player the kit
+    permission: event.getkit
+  getsetuptool:
+    description: Give player the setup tool
+    permission: event.getsetuptool
+  setremovallobby:
+    description: Set removal lobby area
+    permission: event.setremovallobby
+  setcheckpointarea:
+    description: Set checkpoint area
+    permission: event.setcheckpointarea
+  setcheckpointlocation:
+    description: Set checkpoint location
+    permission: event.setcheckpointlocation
+  setdisablebowarea:
+    description: Set disable bow area
+    permission: event.setdisablebowarea
+  getwinnertool:
+    description: Give player the winner tool
+    permission: event.getwinnertool
+  start:
+    description: Toggle start the event
+    permission: event.start
+  chatlock:
+    description: Toggle chat lock
+    permission: event.chatlock
+  setremovalgate:
+    description: Set removal gate area
+    permission: event.setremovalgate
+  gettargettool:
+    description: Give player the target tool
+    permission: event.gettargettool
+  resettarget:
+    description: Reset target buttons
+    permission: event.resettarget
